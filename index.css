@@ -1,26 +1,115 @@
-#back { 
-   font-family: Arial;
-   font-weight: bold;
-   background-image: url("back_pic.jpg");
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
+#backOne { 
+    font-family: Arial;
+    font-weight: bold;
+    background-image: url("back_pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    height: 100vh;
+    width: 100vw;
 
-   height: 100vh;
-   width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 header {
+    width: 100%;
     background-color: transparent;
     color: white;
+    font-family: Arial;
+    font-weight: bold;
     display: flex;
     justify-content: space-around;
-    padding: 2%;
 
+    position: fixed;
+}
+
+#headerLeft {
     width: 60%;
-    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 img {
     height: 40px;
     width: 400px;
+}
+
+#headerRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverLine:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.content h1 {
+    font-size: 2em;
+}
+
+.content h3 {
+    font-size: 1.5em;
+}
+
+.content h4 {
+    font-size: 1em;
+}
+
+.rewatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+}
+
+.rewatch:hover {
+    background-color: white;
+    color: black;
+}
+
+#backTwo {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("space_pic.jpg");
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#backThree { 
+    font-family: Arial;
+    font-weight: bold;
+    background-image: url("rocket_pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    height: 100vh;
+    width: 100vw;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
